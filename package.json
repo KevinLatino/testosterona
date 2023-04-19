@@ -1,0 +1,22 @@
+{
+  "name": "juegos",
+  "version": "1.0.0",
+  "description": "Sistema de renta de juegos en linea",
+  "main": "server.js",
+  "autor": "11C",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^3.21.2",
+    "mongoose": "~5.11.19",
+    "multer": "~0.1.6",
+    "nodemailer": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "license": "ISC"
+}
